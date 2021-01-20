@@ -1,0 +1,108 @@
+﻿/*Color Definitions for the site.*/
+:root {
+	--_1: #ffffff;
+	--_2: #e4f3ff;
+	--_3: #354158;
+	--_4: #007fff;
+	--_5: #00cbff;
+	--_6: #ff9286;
+	--_7: #ff6d86;
+}
+
+.personal-links
+{
+	box-shadow: inset;
+}
+
+/*Two Column Page Setup*/
+.two-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.two-col-left {
+
+}
+.two-col-right {
+
+}
+.two-col-splitter {
+	border-style: solid;
+	border-radius: 3px;
+	border-color: var(--_7); 
+	padding: 2px;
+	margin: 0px 3px;
+}
+
+
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+	color: var(--_7);
+}
+
+.btn-primary {
+	color: var(--_1);
+	background-color: var(--_4);
+	border-color: var(--_3);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	color: var(--_1);
+	background-color: var(--_4);
+	border-color: var(--_3);
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+	font-size: 16px;
+  }
+}
+
+.border-top {
+	border-top: 1px solid var(--_1);
+}
+.border-bottom {
+	border-bottom: 1px solid var(--_1);
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: var(--_2);
+  text-decoration-color: var(--_6);
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
